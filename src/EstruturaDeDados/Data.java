@@ -25,7 +25,7 @@ public class Data{
 }
 */
 
-
+/*
 public class Data{
     public static void main(String[] args){
         long var1 = 2147483649l;
@@ -54,7 +54,13 @@ public class Data{
 
     }
     
-}
+}*/
+
+// Operadores lógicos ( and , or , xor) / ( &&, || , !=)
+//Operadores aritméticos (+,-,*,/,%)
+
+
+
 
 
 
