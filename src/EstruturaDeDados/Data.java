@@ -59,7 +59,7 @@ public class Data{
 // Operadores lógicos ( and , or , xor) / ( &&, || , !=) ; && != &  ==  se o primeiro operando (da esquerda para direita) for 0 ( falso ) o operando não será realizado
 //Operadores aritméticos (+,-,*,/,%)
 
-
+/*
 class Data{
     public static void main(String[] args){
         int n1 = 10;
@@ -70,35 +70,91 @@ class Data{
 
     }
 }
+*/
+/*
+class Data{
+    public static void main(String[] args){
+        /*
+        int idade = 18;
+        if (idade > 18){
+            System.out.println("Maior de idade");
+        }else if (idade < 17 ){
+            System.out.println("Menor de idade");
+        }else{
+            // igual a 18
+            System.out.println("Maior de idade");
+        }*/
+        /*
+        int ct = 0;
+        while(ct < 10){
+            System.out.println(ct++);
+        }
+        */
+        /*
+        int ct = 0;
+        do {
+            System.out.println(ct++);
+        }while(ct <= 10);
+        */
+
+        /*
+        for(int i = 0; i < 10; i++){
+            System.out.println(i++);
+        };*/
+/*
+        int m = 0;
+        switch(m){
+            case 1: 
+                System.out.println("Janeiro");
+                break;
+            case 2: 
+                System.out.println("Fevereiro");
+                break;
+            case 3: 
+                System.out.println("Marco");
+                break;
+            case 4: 
+                System.out.println("Abril");
+                break;
+            default:
+                System.out.println("Nem uma");
+                break;
+        }
+    }
+}
+*/
+        
 
 
 
+public class Data {
 
+    public static void main(String[] args){
+        Palindromo("ana");
+        Palindromo("palavra");        
+    }
 
+    static void Palindromo(String v){
+        String novo_n = "";
+        for(int n = v.length() - 1; n >= 0 ; n--){
+            novo_n += v.charAt(n);
+        }
+        
+        for(int p = v.length() - 1; p >= 0; p--){
+            if (novo_n.charAt(p) == v.charAt(p)){
+                System.out.println("Eh Palindromo");
+                break;
+            }else{
+                System.out.println("Nao eh palindromo");
+                break;
+            }
+        }
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+}
+    
 
 
 
